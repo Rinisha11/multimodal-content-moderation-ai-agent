@@ -34,5 +34,25 @@ Run the notebook in a Jupyter environment with necessary libraries.
 - Python 3.8+
 - transformers
 - langchain
-- open AI API key
-- Image/Audio Dataset as input
+
+## Input Requirements
+
+This notebook uses:
+
+- **API Key** for HuggingFace or OpenAI (not included for security reasons)
+- **Datasets** (local images or text files not included in the repo)
+
+### How to Use
+
+1. Set your API key:
+   - Create a file named `.env` (or set as environment variable):
+     ```
+     HUGGINGFACE_API_KEY=your_api_key_here
+     ```
+   - Or directly set it in the notebook (not recommended for sharing).
+
+2. Place your input files:
+   - Store images in a folder like `input_images/`
+   - Store text files in a folder like `input_text/`
+
+> **Note:** These files/folders are not included in the repo. Add them locally to run the notebook.
