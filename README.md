@@ -34,3 +34,5 @@ Run the notebook in a Jupyter environment with necessary libraries.
 - Python 3.8+
 - transformers
 - langchain
+- open AI API key
+- Image/Audio Dataset as input
