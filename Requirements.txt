@@ -1,0 +1,4 @@
+transformers
+langchain
+Open AI API key
+Image/Audio Dataset - modify the line accordinly
